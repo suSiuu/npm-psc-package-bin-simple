@@ -11,7 +11,7 @@ console.log(require('https-proxy-agent'),'require');
 
 // agent's address
 const proxy = 'http://172.23.240.1:7890';  // 替换为你的代理地址和端口
-const agent = new HttpsProxyAgent(proxy);
+const agent = HttpsProxyAgent.HttpsProxyAgent(proxy);
 
 https.get({
   hostname: 'github.com',
