@@ -9,7 +9,7 @@ const platform = { win32: "win64", darwin: "macos" }[process.platform] || "linux
 
 console.log(require('https-proxy-agent'),'require');
 
-// agent's address
+// agent's address 需要修改自己本机的代理地址
 const proxy = 'http://172.23.240.1:7890';  // 替换为你的代理地址和端口
 const agent = new HttpsProxyAgent(proxy);
 
