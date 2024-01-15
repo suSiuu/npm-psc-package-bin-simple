@@ -11,7 +11,7 @@ console.log(require('https-proxy-agent'),'require');
 
 // agent's address 需要修改自己本机的代理地址
 // const proxy = 'http://172.23.240.1:7890';  // 替换为你的代理地址和端口
-const proxy = 'http://172.31.82.154:7890';  // 替换为你的代理地址和端口
+const proxy = 'http://127.0.0.1:7890';  // 替换为你的代理地址和端口
 
 const agent = new HttpsProxyAgent(proxy);
 
