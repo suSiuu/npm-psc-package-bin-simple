@@ -24,7 +24,8 @@
   "dependencies": {
     "follow-redirects": "^1.5.9",
     "shelljs": "^0.8.2",
-    "tar": "^4.4.8"
+    "tar": "^4.4.8",
+    "https-proxy-agent": "7.0.2"
   },
   "keywords": ["purescript", "psc-package", "spacchetti"],
   "license": "MIT"
